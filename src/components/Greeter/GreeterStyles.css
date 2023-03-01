@@ -1,0 +1,38 @@
+.greeter {
+    width: 100%;
+    height: 100vh;
+    background: url('https://cdn.shopify.com/s/files/1/0270/0178/2405/files/CDB88F04-752A-4423-BFD4-624C029CD85A_480x480.jpg?v=1578073007') no-repeat center center/cover;
+}
+
+.greeter .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.greeter .content {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 6rem;
+}
+
+.greeter h1 {
+    color: #f8f8f8;
+}
+
+.greeter .blue {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:940px) {
+   .greeter .content {
+    margin-left: 1rem;
+   } 
+}
+
+
+
+
+
